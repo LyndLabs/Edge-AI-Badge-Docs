@@ -2,7 +2,7 @@
 &lt;ol&gt;
 &lt;li&gt;
 
-&lt;a class="link link--text" href=""&gt;Download the pre-built 16MB firmware file&lt;/a&gt; on your computer.&lt;/li&gt;
+&lt;a class="link link--text" href="https://github.com/LyndLabs/Edge-AI-Foundation-Badge/releases/tag/v0.0" rel="external"&gt;Download the pre-built 16MB firmware file&lt;/a&gt; on your computer.&lt;/li&gt;
 &lt;li&gt;Put your badge in 
 
 &lt;a class="link link--text" href=""&gt;programming mode&lt;/a&gt;.&lt;/li&gt;
@@ -22,16 +22,7 @@
 &lt;li&gt;Hold down &lt;code&gt;BTN-5&lt;/code&gt; while plugging badge into your computer&amp;rsquo;s USB port.&lt;/li&gt;
 &lt;li&gt;That&amp;rsquo;s it!&lt;/li&gt;
 &lt;/ol&gt;
-&lt;img src="https://lyndlabs.github.io/Edge-AI-Badge-Docs/buttons.png" alt="Chrome flashing tool" /&gt;
-&lt;hr&gt;
-&lt;h3 id="programming-methods"&gt;Programming Methods&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;/blockquote&gt;
-&lt;details&gt;
-&lt;summary&gt;&lt;strong&gt;Option 1: Program through Chrome&lt;/strong&gt;&lt;/summary&gt;
-&lt;p&gt;
-
-&lt;a class="link link--text" href="https://update.devkitty.io/" rel="external"&gt;DevKitty Flasher Tool&lt;/a&gt; programs directly from the Chrome browser over WebSerial — no installation needed.&lt;/p&gt;</description></item><item><title>Building from Source</title><link>https://lyndlabs.github.io/Edge-AI-Badge-Docs/software/building/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://lyndlabs.github.io/Edge-AI-Badge-Docs/software/building/</guid><description>&lt;p&gt;The firmware is built with 
+&lt;p&gt;&amp;lt;img src=&amp;quot;{{ &amp;ldquo;/buttons.png&amp;rdquo; | relURL }}&amp;quot; alt=&amp;ldquo;Badge button layout&amp;rdquo; /&amp;gt;&lt;/p&gt;</description></item><item><title>Building from Source</title><link>https://lyndlabs.github.io/Edge-AI-Badge-Docs/software/building/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://lyndlabs.github.io/Edge-AI-Badge-Docs/software/building/</guid><description>&lt;p&gt;The firmware is built with 
 
 &lt;a class="link link--text" href="https://platformio.org/" rel="external"&gt;PlatformIO&lt;/a&gt; on top of ESP-IDF. No manual IDF installation is needed — PlatformIO manages the toolchain.&lt;/p&gt;</description></item><item><title>Architecture</title><link>https://lyndlabs.github.io/Edge-AI-Badge-Docs/software/architecture/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://lyndlabs.github.io/Edge-AI-Badge-Docs/software/architecture/</guid><description>&lt;p&gt;The firmware runs on ESP-IDF with FreeRTOS and is structured in three layers: a hardware abstraction layer, a framework layer, and the application layer.&lt;/p&gt;</description></item><item><title>Partition Table &amp; OTA</title><link>https://lyndlabs.github.io/Edge-AI-Badge-Docs/software/partition-table/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://lyndlabs.github.io/Edge-AI-Badge-Docs/software/partition-table/</guid><description>&lt;p&gt;The badge uses a custom 16 MB partition layout with A/B OTA slots, a dedicated AI model storage area, and a FATFS volume for user data.&lt;/p&gt;</description></item><item><title>Roadmap</title><link>https://lyndlabs.github.io/Edge-AI-Badge-Docs/software/roadmap/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://lyndlabs.github.io/Edge-AI-Badge-Docs/software/roadmap/</guid><description>&lt;p&gt;The Edge AI Foundation Badge is a platform, not a finished product. Here&amp;rsquo;s what&amp;rsquo;s coming.&lt;/p&gt;
 &lt;h2 id="edge-ai--on-device-inference"&gt;Edge AI &amp;amp; On-Device Inference&lt;/h2&gt;
