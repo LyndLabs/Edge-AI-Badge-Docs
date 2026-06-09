@@ -1,0 +1,58 @@
+# Edge AI Foundation Badge
+
+> Congrats on setting up a new Doks project!
+
+- [Page not found](https://lyndlabs.github.io/Edge-AI-Badge-Docs/404/): The page you're looking for doesn’t exist or has moved. Check the URL, use the navigation to browse sections, or return to the homepage.
+- [Privacy Policy](https://lyndlabs.github.io/Edge-AI-Badge-Docs/privacy/): Learn how we collect, use, and protect your personal data, what rights you have over your information, and how to contact us with questions.
+- [About the Badge](https://lyndlabs.github.io/Edge-AI-Badge-Docs/about/): The Edge AI Foundation Badge — a wearable computing platform for connecting, creating, and running AI at the edge.
+- [Blog](https://lyndlabs.github.io/Edge-AI-Badge-Docs/blog/): Read product updates, release highlights, and practical tips that explain what’s new, why it matters, and how to get the most value from this project.
+- [Hardware](https://lyndlabs.github.io/Edge-AI-Badge-Docs/hardware/): Hardware reference for the Edge AI Foundation Badge — components, pinout, and power design.
+- [Software](https://lyndlabs.github.io/Edge-AI-Badge-Docs/software/): Firmware, toolchain, architecture, and roadmap for the Edge AI Foundation Badge.
+- [Docs](https://lyndlabs.github.io/Edge-AI-Badge-Docs/docs/): Browse guides and reference documentation that explain how to use this site’s features, configure Doks, and publish clear, user-focused content.
+
+## Blog
+
+> Read product updates, release highlights, and practical tips that explain what’s new, why it matters, and how to get the most value from this project.
+
+- [London 2026: Launching the First Badges!](https://lyndlabs.github.io/Edge-AI-Badge-Docs/blog/london-2026-launching-the-first-badges/): The Edge AI Foundation Badge makes its debut.
+- [Add Secure Boot to Any Project](https://lyndlabs.github.io/Edge-AI-Badge-Docs/blog/add-secure-boot-to-any-project/): Using OPTIGA-TRUST-M to make any microcontroller project secure for IoT.
+
+## Hardware
+
+> Hardware reference for the Edge AI Foundation Badge — components, pinout, and power design.
+
+- [Overview](https://lyndlabs.github.io/Edge-AI-Badge-Docs/hardware/overview/): Onboard components of the Edge AI Foundation Badge.
+- [Schematic](https://lyndlabs.github.io/Edge-AI-Badge-Docs/hardware/schematic/): Schematic and full GPIO pin map for the Edge AI Foundation Badge
+- [Circuit Board](https://lyndlabs.github.io/Edge-AI-Badge-Docs/hardware/pcb/): PCB layout and design files for the Edge AI Foundation Badge.
+- [Modular Design](https://lyndlabs.github.io/Edge-AI-Badge-Docs/hardware/design/): Three-layer physical design of the Edge AI Foundation Badge — faceplate, main board, and backplate.
+
+## Software
+
+> Firmware, toolchain, architecture, and roadmap for the Edge AI Foundation Badge.
+
+- [Programming the Badge](https://lyndlabs.github.io/Edge-AI-Badge-Docs/software/flashing/): How to flash the Edge AI Foundation Badge using a pre-built image or from source.
+- [Building from Source](https://lyndlabs.github.io/Edge-AI-Badge-Docs/software/building/): Toolchain setup and build instructions for the Edge AI Foundation Badge firmware.
+- [Architecture](https://lyndlabs.github.io/Edge-AI-Badge-Docs/software/architecture/): System architecture of the Edge AI Foundation Badge firmware.
+- [Partition Table & OTA](https://lyndlabs.github.io/Edge-AI-Badge-Docs/software/partition-table/): Flash partition layout and over-the-air update design for the Edge AI Foundation Badge.
+- [Roadmap](https://lyndlabs.github.io/Edge-AI-Badge-Docs/software/roadmap/): Upcoming features and platform goals for the Edge AI Foundation Badge.
+
+## Docs
+
+> Browse guides and reference documentation that explain how to use this site’s features, configure Doks, and publish clear, user-focused content.
+
+- [Guides](https://lyndlabs.github.io/Edge-AI-Badge-Docs/docs/guides/): Explore step-by-step guides that walk you through common tasks, from setup to advanced workflows, helping you learn and use this project with confidence.
+- [Reference](https://lyndlabs.github.io/Edge-AI-Badge-Docs/docs/reference/): Find detailed, structured reference pages that explain concepts, configuration options, and behavior so you can quickly look up precise information as you work.
+- [Resources](https://lyndlabs.github.io/Edge-AI-Badge-Docs/docs/resources/): Discover curated links to official docs, tools, templates, and learning materials that help you deepen your knowledge and get more from this project.
+
+### Guides
+
+> Explore step-by-step guides that walk you through common tasks, from setup to advanced workflows, helping you learn and use this project with confidence.
+
+- [Example Guide](https://lyndlabs.github.io/Edge-AI-Badge-Docs/docs/guides/example-guide/): Learn how to structure clear, task-focused guides that walk users through real workflows step by step, improving documentation usability and success.
+
+### Reference
+
+> Find detailed, structured reference pages that explain concepts, configuration options, and behavior so you can quickly look up precise information as you work.
+
+- [Example Reference](https://lyndlabs.github.io/Edge-AI-Badge-Docs/docs/reference/example-reference/): Learn how to design concise, comprehensive reference pages that document concepts, options, and behavior clearly so users can quickly find exact answers.
+

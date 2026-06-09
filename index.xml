@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Edge AI Foundation Badge</title><link>https://lyndlabs.github.io/Edge-AI-Badge-Docs/</link><description>Recent content on Edge AI Foundation Badge</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020-2026 Thulite</copyright><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://lyndlabs.github.io/Edge-AI-Badge-Docs/index.xml" rel="self" type="application/rss+xml"/><item><title>About the Badge</title><link>https://lyndlabs.github.io/Edge-AI-Badge-Docs/about/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://lyndlabs.github.io/Edge-AI-Badge-Docs/about/</guid><description>&lt;hr&gt;
+&lt;h1 id="the-cutting-edge"&gt;The Cutting Edge&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Edge AI doesn&amp;rsquo;t have to live in the cloud when it can live on you!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The badge runs inference directly on a $3 microcontroller, and we want to work with hardware vendors like you to bring new demos and capabilities to life!&lt;/p&gt;</description></item><item><title>London 2026: Launching the First Badges!</title><link>https://lyndlabs.github.io/Edge-AI-Badge-Docs/blog/london-2026-launching-the-first-badges/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://lyndlabs.github.io/Edge-AI-Badge-Docs/blog/london-2026-launching-the-first-badges/</guid><description>Coming soon.</description></item><item><title>Add Secure Boot to Any Project</title><link>https://lyndlabs.github.io/Edge-AI-Badge-Docs/blog/add-secure-boot-to-any-project/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://lyndlabs.github.io/Edge-AI-Badge-Docs/blog/add-secure-boot-to-any-project/</guid><description>Using OPTIGA-TRUST-M to make any microcontroller project secure for IoT.</description></item><item><title>Overview</title><link>https://lyndlabs.github.io/Edge-AI-Badge-Docs/hardware/overview/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://lyndlabs.github.io/Edge-AI-Badge-Docs/hardware/overview/</guid><description>&lt;div class="callout callout-note d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3"&gt;
+ 
+ &lt;div class="callout-content"&gt;
+ 
+ &lt;div class="callout-body"&gt;
+ &lt;p&gt;These docs are written for developers. New to the badge? Check out our 
+
+&lt;a class="link link--text" href="https://lyndlabs.github.io/Edge-AI-Badge-Docs/blog/"&gt;blog&lt;/a&gt; for guides and project walkthroughs to get started.&lt;/p&gt;</description></item><item><title>Schematic</title><link>https://lyndlabs.github.io/Edge-AI-Badge-Docs/hardware/schematic/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://lyndlabs.github.io/Edge-AI-Badge-Docs/hardware/schematic/</guid><description>&lt;div class="callout callout-note d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3"&gt;
+ 
+ &lt;div class="callout-content"&gt;
+ 
+ &lt;div class="callout-body"&gt;
+ &lt;p&gt;These docs are written for developers. New to the badge? Check out our 
+
+&lt;a class="link link--text" href="https://lyndlabs.github.io/Edge-AI-Badge-Docs/blog/"&gt;blog&lt;/a&gt; for guides and project walkthroughs to get started.&lt;/p&gt;</description></item><item><title>Circuit Board</title><link>https://lyndlabs.github.io/Edge-AI-Badge-Docs/hardware/pcb/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://lyndlabs.github.io/Edge-AI-Badge-Docs/hardware/pcb/</guid><description>&lt;div class="callout callout-note d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3"&gt;
+ 
+ &lt;div class="callout-content"&gt;
+ 
+ &lt;div class="callout-body"&gt;
+ &lt;p&gt;These docs are written for developers. New to the badge? Check out our 
+
+&lt;a class="link link--text" href="https://lyndlabs.github.io/Edge-AI-Badge-Docs/blog/"&gt;blog&lt;/a&gt; for guides and project walkthroughs to get started.&lt;/p&gt;</description></item><item><title>Modular Design</title><link>https://lyndlabs.github.io/Edge-AI-Badge-Docs/hardware/design/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://lyndlabs.github.io/Edge-AI-Badge-Docs/hardware/design/</guid><description>&lt;div class="callout callout-note d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3"&gt;
+ 
+ &lt;div class="callout-content"&gt;
+ 
+ &lt;div class="callout-body"&gt;
+ &lt;p&gt;These docs are written for developers. New to the badge? Check out our 
+
+&lt;a class="link link--text" href="https://lyndlabs.github.io/Edge-AI-Badge-Docs/blog/"&gt;blog&lt;/a&gt; for guides and project walkthroughs to get started.&lt;/p&gt;</description></item><item><title>Programming the Badge</title><link>https://lyndlabs.github.io/Edge-AI-Badge-Docs/software/flashing/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://lyndlabs.github.io/Edge-AI-Badge-Docs/software/flashing/</guid><description>&lt;p&gt;If you have an unprogrammed badge, there&amp;rsquo;s only 4 steps to upload our pre-built firmware!&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+
+&lt;a class="link link--text" href=""&gt;Download the pre-built 16MB firmware file&lt;/a&gt; on your computer.&lt;/li&gt;
+&lt;li&gt;Put your badge in 
+
+&lt;a class="link link--text" href=""&gt;programming mode&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Choose your programming method (
+
+&lt;a class="link link--text" href=""&gt;Chrome&lt;/a&gt; / 
+
+&lt;a class="link link--text" href=""&gt;Command-Line&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;
+
+&lt;a class="link link--text" href=""&gt;Reset your badge&lt;/a&gt;, and enjoy!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id="enter-programming-mode"&gt;Enter Programming Mode&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Press the badge &lt;code&gt;reset&lt;/code&gt; button once.&lt;/li&gt;
+&lt;li&gt;Hold down &lt;code&gt;BTN-5&lt;/code&gt; while plugging badge into your computer&amp;rsquo;s USB port.&lt;/li&gt;
+&lt;li&gt;That&amp;rsquo;s it!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;img src="https://lyndlabs.github.io/Edge-AI-Badge-Docs/buttons.png" alt="Chrome flashing tool" /&gt;
+&lt;hr&gt;
+&lt;h3 id="programming-methods"&gt;Programming Methods&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;/blockquote&gt;
+&lt;details&gt;
+&lt;summary&gt;&lt;strong&gt;Option 1: Program through Chrome&lt;/strong&gt;&lt;/summary&gt;
+&lt;p&gt;
+
+&lt;a class="link link--text" href="https://update.devkitty.io/" rel="external"&gt;DevKitty Flasher Tool&lt;/a&gt; programs directly from the Chrome browser over WebSerial — no installation needed.&lt;/p&gt;</description></item><item><title>Building from Source</title><link>https://lyndlabs.github.io/Edge-AI-Badge-Docs/software/building/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://lyndlabs.github.io/Edge-AI-Badge-Docs/software/building/</guid><description>&lt;p&gt;The firmware is built with 
+
+&lt;a class="link link--text" href="https://platformio.org/" rel="external"&gt;PlatformIO&lt;/a&gt; on top of ESP-IDF. No manual IDF installation is needed — PlatformIO manages the toolchain.&lt;/p&gt;</description></item><item><title>Architecture</title><link>https://lyndlabs.github.io/Edge-AI-Badge-Docs/software/architecture/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://lyndlabs.github.io/Edge-AI-Badge-Docs/software/architecture/</guid><description>&lt;p&gt;The firmware runs on ESP-IDF with FreeRTOS and is structured in three layers: a hardware abstraction layer, a framework layer, and the application layer.&lt;/p&gt;</description></item></channel></rss>
