@@ -20,6 +20,8 @@ If you have an unprogrammed badge, there's only 4 steps to upload our pre-built 
 3. Choose your programming method ([Chrome]() / [Command-Line]()).
 4. [Reset your badge](), and enjoy!
 
+{{< img src="/images/DSC00095.JPG" alt="Programmed badge" >}}
+
 ---
 ### Enter Programming Mode
 1. Press the badge `reset` button once.
