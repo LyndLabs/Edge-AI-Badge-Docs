@@ -74,11 +74,9 @@ article img {
       stroke-width: 0.9;
       fill: none;
       filter:
-        drop-shadow(0 0 2px  rgba($eaif-light-green, 1))
-        drop-shadow(0 0 8px  rgba($eaif-light-green, 0.75))
-        drop-shadow(0 0 20px rgba($eaif-light-green, 0.45))
-        drop-shadow(0 0 45px rgba($eaif-light-green, 0.2))
-        drop-shadow(0 0 80px rgba($eaif-light-green, 0.08));
+        drop-shadow(0 0 3px  rgba($eaif-light-green, 1))
+        drop-shadow(0 0 12px rgba($eaif-light-green, 0.6))
+        drop-shadow(0 0 35px rgba($eaif-light-green, 0.25));
     }
   }
 }
