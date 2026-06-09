@@ -15,7 +15,7 @@ params:
     robots: ""
 ---
 If you have an unprogrammed badge, there's only 4 steps to upload our pre-built firmware!
-1. [Download the pre-built 16MB firmware file]() on your computer.
+1. [Download the pre-built 16MB firmware file](https://github.com/LyndLabs/Edge-AI-Foundation-Badge/releases/tag/v0.0) on your computer.
 2. Put your badge in [programming mode]().
 3. Choose your programming method ([Chrome]() / [Command-Line]()).
 4. [Reset your badge](), and enjoy!
@@ -26,7 +26,7 @@ If you have an unprogrammed badge, there's only 4 steps to upload our pre-built 
 2. Hold down `BTN-5` while plugging badge into your computer's USB port.
 3. That's it!
 
-<img src="/buttons.png" alt="Chrome flashing tool" />
+<img src="{{ "/buttons.png" | relURL }}" alt="Badge button layout" />
 
 ---
 ### Programming Methods
@@ -41,7 +41,7 @@ If you have an unprogrammed badge, there's only 4 steps to upload our pre-built 
 3. Keep `Offset` at `0x0`.
 4. When flashing completes, reset the badge!
 
-<img src="/flash.png" alt="Chrome flashing tool" />
+<img src="{{ "/flash.png" | relURL }}" alt="Chrome flashing tool" />
 </details>
 
 <details>
