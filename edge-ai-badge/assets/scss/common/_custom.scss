@@ -1,0 +1,268 @@
+// Edge AI Foundation Badge — custom styles
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+// ── Typography ───────────────────────────────────────────────────────────────
+
+h1:not(.eaif-hero__headline),
+h2, h3, h4, h5, h6 {
+  font-family: 'Space Mono', monospace;
+}
+
+// ── Image placeholders ───────────────────────────────────────────────────────
+// Grey box for content images that don't exist yet — excludes logos/icons
+
+.about-page__img,
+.docs-content img,
+article img {
+  background-color: rgba(255, 255, 255, 0.07);
+  min-height: 120px;
+}
+
+// ── About page layout ────────────────────────────────────────────────────────
+
+.about-page {
+  height: #{"calc(100dvh - 7.5rem)"};
+}
+
+.about-page__img {
+  flex: 1 1 0;
+  object-fit: cover;
+  min-width: 0;
+  min-height: 240px;
+}
+
+.about-page__text {
+  flex: 0 0 auto;
+  width: #{"min(520px, 45vw)"};
+}
+
+// ── Hero ────────────────────────────────────────────────────────────────────
+// Navbar ≈ 3.5rem, footer ≈ 4rem → hero fills the gap so footer is in view.
+
+.eaif-hero {
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: $eaif-near-black;
+  position: relative;
+  overflow: clip;
+}
+
+// Badge PCB outline — absolutely centered, scaled to wrap the content.
+// Layered drop-shadows of increasing radius + decreasing opacity simulate
+// a glow that fades outward from the stroke (gradient outwards effect).
+.eaif-hero__badge-outline {
+  position: absolute;
+  width: #{"min(720px, 85vh)"};
+  height: #{"min(720px, 85vh)"};
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  opacity: 0.6;
+
+  svg {
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+
+    path {
+      stroke: $eaif-light-green;
+      stroke-width: 0.9;
+      fill: none;
+      filter:
+        drop-shadow(0 0 2px  rgba($eaif-light-green, 1))
+        drop-shadow(0 0 8px  rgba($eaif-light-green, 0.75))
+        drop-shadow(0 0 20px rgba($eaif-light-green, 0.45))
+        drop-shadow(0 0 45px rgba($eaif-light-green, 0.2))
+        drop-shadow(0 0 80px rgba($eaif-light-green, 0.08));
+    }
+  }
+}
+
+// Fading ring echoes behind the main outline — white, no glow, decreasing opacity
+.eaif-hero__badge-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+
+  svg {
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+
+    path {
+      stroke: #ffffff;
+      stroke-width: 0.6;
+      fill: none;
+    }
+  }
+}
+
+.eaif-hero__badge-ring--2 {
+  width: #{"min(980px, 116vh)"};
+  height: #{"min(980px, 116vh)"};
+  opacity: 0.07;
+}
+
+.eaif-hero__badge-ring--3 {
+  width: #{"min(1240px, 147vh)"};
+  height: #{"min(1240px, 147vh)"};
+  opacity: 0.035;
+}
+
+.eaif-hero__badge-ring--4 {
+  width: #{"min(1500px, 178vh)"};
+  height: #{"min(1500px, 178vh)"};
+  opacity: 0.02;
+}
+
+.eaif-hero__badge-ring--5 {
+  width: #{"min(1760px, 209vh)"};
+  height: #{"min(1760px, 209vh)"};
+  opacity: 0.01;
+}
+
+// Content stacks above the outline
+.eaif-hero__content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  width: 100%;
+}
+
+.eaif-hero__logo {
+  width: #{"min(280px, 60vw)"};
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+.eaif-hero__headline {
+  font-size: #{"clamp(1.5rem, 3.5vw, 2.4rem)"};
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.2;
+  max-width: 560px;
+  margin: 0 auto 1rem;
+
+  span {
+    color: $eaif-light-green;
+  }
+}
+
+.eaif-hero__sub {
+  font-size: #{"clamp(0.9rem, 1.8vw, 1.05rem)"};
+  color: rgba(#ffffff, 0.6);
+  max-width: 420px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+}
+
+.eaif-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.eaif-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.75rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none !important;
+  background: $eaif-light-green;
+  color: $eaif-near-black !important;
+  transition: background 0.18s ease, transform 0.15s ease, box-shadow 0.18s ease;
+
+  &:hover {
+    background: lighten($eaif-light-green, 8%);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 24px rgba($eaif-light-green, 0.28);
+  }
+
+  &:active { transform: translateY(0); }
+}
+
+.eaif-btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.75rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none !important;
+  background: transparent;
+  color: #ffffff !important;
+  border: 1.5px solid rgba(#ffffff, 0.25);
+  transition: border-color 0.18s ease, color 0.18s ease, transform 0.15s ease;
+
+  &:hover {
+    border-color: $eaif-light-green;
+    color: $eaif-light-green !important;
+    transform: translateY(-1px);
+  }
+
+  &:active { transform: translateY(0); }
+}
+
+// ── Page-specific overrides ──────────────────────────────────────────────────
+
+body.about main h1 {
+  display: none;
+}
+
+// Home: transparent overlaid navbar + fixed footer so hero fills 100dvh
+body.home .sticky-top {
+  background: transparent !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+
+  .navbar {
+    background: transparent !important;
+  }
+}
+
+body.home footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  background: transparent !important;
+}
+
+// ── Global brand wiring ──────────────────────────────────────────────────────
+
+[data-bs-theme="dark"] .nav-link.active,
+[data-bs-theme="dark"] .sidebar .active > .nav-link {
+  color: $eaif-light-green !important;
+}
+
+[data-bs-theme="dark"] code {
+  color: $eaif-light-green;
+}
+
+.navbar-brand img {
+  height: 28px;
+  width: auto;
+}
+
+:root {
+  color-scheme: dark;
+}

@@ -1,0 +1,30 @@
+// Edge AI Foundation Badge — brand palette
+$eaif-dark-green:  #004E53;
+$eaif-light-green: #25E378;
+$eaif-dark-blue:   #1B357D;
+$eaif-purple:      #5F2BEF;
+$eaif-light-blue:  #0084FF;
+$eaif-near-black:  #090D0E;
+$eaif-surface:     #0E1A1B;
+$eaif-surface-2:   #132122;
+
+// Override Bootstrap primary → brand green
+$primary: $eaif-light-green;
+
+// Dark mode backgrounds
+$body-bg-dark:      $eaif-near-black;
+$body-overlay-dark: $eaif-surface;
+$border-dark:       $eaif-surface;
+
+// Headings always white in dark mode
+$headings-color-dark: #ffffff;
+
+// Link colors
+$link-color-dark:   $eaif-light-green;
+$button-color-dark: $eaif-light-green;
+$focus-color-dark:  lighten($eaif-light-green, 8%);
+
+// Navbar
+$navbar-dark-color:        rgba(#ffffff, 0.75);
+$navbar-dark-hover-color:  $eaif-light-green;
+$navbar-dark-active-color: $eaif-light-green;

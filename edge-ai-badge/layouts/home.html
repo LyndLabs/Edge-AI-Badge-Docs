@@ -1,0 +1,49 @@
+{{ define "main" }}
+{{ $badgeSVG := resources.Get "Edge-Ai_Badge-Outline.svg" }}
+<section class="eaif-hero">
+
+  {{/* Badge rings — decorative fading echoes, aria-hidden */}}
+  <div class="eaif-hero__badge-ring eaif-hero__badge-ring--5" aria-hidden="true">
+    {{ if $badgeSVG }}{{ $badgeSVG.Content | safeHTML }}{{ end }}
+  </div>
+  <div class="eaif-hero__badge-ring eaif-hero__badge-ring--4" aria-hidden="true">
+    {{ if $badgeSVG }}{{ $badgeSVG.Content | safeHTML }}{{ end }}
+  </div>
+  <div class="eaif-hero__badge-ring eaif-hero__badge-ring--3" aria-hidden="true">
+    {{ if $badgeSVG }}{{ $badgeSVG.Content | safeHTML }}{{ end }}
+  </div>
+  <div class="eaif-hero__badge-ring eaif-hero__badge-ring--2" aria-hidden="true">
+    {{ if $badgeSVG }}{{ $badgeSVG.Content | safeHTML }}{{ end }}
+  </div>
+
+  {{/* Badge outline — decorative, aria-hidden */}}
+  <div class="eaif-hero__badge-outline" aria-hidden="true">
+    {{ if $badgeSVG }}{{ $badgeSVG.Content | safeHTML }}{{ end }}
+  </div>
+
+  {{/* Content sits on top of the outline */}}
+  <div class="eaif-hero__content">
+    <img
+      class="eaif-hero__logo"
+      src="/images/eaif-logo-white.svg"
+      alt="Edge AI Foundation"
+      width="300"
+      height="112"
+    >
+    <h1 class="eaif-hero__headline">
+      Edge AI Hardware<br><span>you can wear</span>
+    </h1>
+    <p class="eaif-hero__sub">
+      The badge built for learning and pushing AI to the edge!
+    </p>
+    <div class="eaif-hero__actions">
+      <a class="eaif-btn-primary" href="/about/">Learn More</a>
+      <a class="eaif-btn-ghost" href="/blog/">See Projects</a>
+    </div>
+  </div>
+
+</section>
+{{ end }}
+
+{{ define "sidebar-prefooter" }}{{ end }}
+{{ define "sidebar-footer" }}{{ end }}

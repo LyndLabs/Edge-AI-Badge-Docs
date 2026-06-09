@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="about-page d-flex flex-column flex-md-row align-items-stretch">
+  {{ $img := .Params.image | default "" }}
+  <img
+    src="{{ $img }}"
+    alt="Edge AI Foundation Badge"
+    class="about-page__img"
+  >
+  <div class="about-page__text d-flex flex-column justify-content-center px-4 px-lg-5 py-5">
+    {{ .Content }}
+  </div>
+</div>
+{{ end }}
