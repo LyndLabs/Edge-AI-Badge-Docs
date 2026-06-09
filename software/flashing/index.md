@@ -1,6 +1,6 @@
 # Programming the Badge
 If you have an unprogrammed badge, there's only 4 steps to upload our pre-built firmware!
-1. [Download the pre-built 16MB firmware file](https://github.com/LyndLabs/Edge-AI-Foundation-Badge/releases/tag/v0.0) on your computer.
+1. [Download the pre-built firmware file](https://github.com/LyndLabs/Edge-AI-Badge-Docs/raw/main/edge-ai-badge/assets/v0.0_Edge-AI_Firmware.bin) on your computer.
 2. Put your badge in [programming mode]().
 3. Choose your programming method ([Chrome]() / [Command-Line]()).
 4. [Reset your badge](), and enjoy!
@@ -24,7 +24,7 @@ If you have an unprogrammed badge, there's only 4 steps to upload our pre-built 
 1. Open the [firmware flasher]() in Chrome (or any Chromium-based browser).
 2. Click **Connect**, select your badge's serial port, which probably says something like `USB-JTAG`.
 3. Keep `Offset` at `0x0`.
-4. When flashing completes, reset the badge!
+4. When flashing completes, unplug the badge and hold down the power button!
 
 {{< img src="/flash.png" alt="Chrome flashing tool" >}}
 </details>
@@ -41,7 +41,7 @@ pip install esptool
 
 **Flash the full factory image:**
 ```bash
-esptool.py --chip esp32s3 --port /dev/ttyACM0 write_flash 0x0 firmware-factory-16mb.bin
+esptool.py --chip esp32s3 --port /dev/ttyACM0 write_flash 0x0 v0.0_Edge-AI_Firmware.bin
 ```
 
 Replace `/dev/ttyACM0` with your port (`COM3` on Windows, `/dev/cu.usbmodemXXXX` on macOS). The factory image covers the full 16 MB and is safe to flash on a blank or previously-programmed badge.
